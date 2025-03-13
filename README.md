@@ -1,3 +1,3 @@
 # Kokoa Clone 2025 Update
 
-DSS got so much better!
+CSS got so much better!
