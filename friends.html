@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kakao Clone</title>
+    <title>Frieinds - Kakao Clone</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -30,18 +30,29 @@
       </div>
     </div>
 
-    <header class="welcome-header">
-      <h1 class="welcome-header_title">Welcome to Kokoa Clone</h1>
-      <p class="welcome-header_text">
-        If you have a Kokoa Account, log in with your email or phone number.
-      </p>
-    </header>
-
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="text" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
-    </form>
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_btn">
+          <a class="nav_link" href="friends.html"
+            ><i class="fa-solid fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="#"
+            ><i class="fa-regular fa-comment fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="#"
+            ><i class="fa-solid fa-magnifying-glass fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="#"
+            ><i class="fa-solid fa-ellipsis fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
