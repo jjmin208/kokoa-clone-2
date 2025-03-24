@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frieinds - Kakao Clone</title>
+    <title>More - Kakao Clone</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -31,20 +31,18 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header_title">Friends</h1>
+      <h1 class="screen-header_title">More</h1>
       <div class="screen-header_icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i> </span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span
+          ><i class="fa-solid fa-gear fa-lg"
+            ><span class="screen-header_point"></span></i
+        ></span>
       </div>
     </header>
 
-    <a id="friends-display-link"
-      ><i class="fa-solid fa-circle-info"></i>Friends` Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i
-    ></a>
-
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component_column">
           <img
@@ -53,33 +51,41 @@
           />
           <div class="user-component_text">
             <h4 class="user-component_title">Nicolas</h4>
-            <!-- <h6 class="user-component_subtitle">this text whatever  </h6> -->
+            <h6 class="user-component_subtitle">+ 08-8030-7005</h6>
           </div>
         </div>
-        <div class="user-component_column"></div>
+        <div class="user-component_column more_user-component_column">
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
       </div>
-      <div class="friends-screen_channel">
-        <div class="friends-screen_channel-header">
-          Channel <i class="fa-solid fa-chevron-up fa-xs"></i>
+
+      <div class="icon-row">
+        <div class="icon-row_icon">
+          <i class="fa-regular fa-calendar"></i><span>Calendar</span>
         </div>
-        <div class="user-component">
-          <div class="user-component_column">
-            <img
-              src="https://avatars.githubusercontent.com/u/151809776?v=4&size=64"
-              class="user-component_avatar user-component_avatar--sm"
-            />
-            <div class="user-component_text">
-              <h4 class="user-component_title user-component_title--not-bold">
-                Channel
-              </h4>
-            </div>
+        <div class="icon-row_icon">
+            <i class="fa-regular fa-hard-drive"></i></i><span>Talk Drive</span>
           </div>
-          <div class="user-component_column">
-            <div>
-              <span>2</span> <i class="fa-solid fa-chevron-right fa-xs"></i>
-            </div>
-          </div>
+        <div class="icon-row_icon">
+            <i class="fa-regular fa-face-smile-beam"></i></i><span>Emoticons</span>
         </div>
+        <div class="icon-row_icon">
+            <i class="fa-solid fa-brush"></i><span>Themes</span>
+        </div>
+        <div class="icon-row">
+        <div class="icon-row_icon">
+          <i class="fa-regular fa-calendar"></i><span>Calendar</span>
+        </div>
+        <div class="icon-row_icon">
+            <i class="fa-regular fa-hard-drive"></i></i><span>Talk Drive</span>
+          </div>
+        <div class="icon-row_icon">
+            <i class="fa-regular fa-face-smile-beam"></i></i><span>Emoticons</span>
+        </div>
+        <div class="icon-row_icon">
+            <i class="fa-solid fa-brush"></i><span>Themes</span>
+        </div>
+       
       </div>
     </main>
 
@@ -87,7 +93,7 @@
       <ul class="nav_list">
         <li class="nav_btn">
           <a class="nav_link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="fa-regular fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav_btn">

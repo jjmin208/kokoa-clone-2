@@ -13,4 +13,15 @@
 
 .screen-header_icons span {
   margin-left: 25px;
+  position: relative;
+}
+
+.screen-header_point {
+  display: block;
+  background-color: tomato;
+  border-radius: 5px;
+  height: 5px;
+  width: 5px;
+  right: 3px;
+  bottom: 15px;
 }
