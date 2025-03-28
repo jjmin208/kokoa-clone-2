@@ -22,6 +22,19 @@
   border-radius: 5px;
   height: 5px;
   width: 5px;
-  right: 3px;
-  bottom: 15px;
+  left: 130px;
+  bottom: 25px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header .fa-gear:hover {
+  animation: rotateCog 2s linear infinite;
 }

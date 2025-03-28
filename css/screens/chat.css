@@ -96,6 +96,7 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 25px;
+  box-sizing: border-box;
   align-items: center;
 }
 
@@ -105,8 +106,45 @@
 
 .reply .reply_column:last-child {
   width: 90%;
+  position: relative;
 }
+
+.reply i {
+  opacity: 0.5;
+}
+
 .reply input {
-  height: 30px;
+  padding: 15px;
   width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+
+.reply_column:last-child > i,
+.reply_column:last-child button {
+  position: absolute;
+  right: -3px;
+  top: 2px;
+}
+
+.reply_column:last-child > i {
+  right: 40px;
+  top: 17.5px;
+}
+
+.reply_column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.reply_column button i {
+  opacity: 1;
+}
+
+.reply_column button:focus,
+.reply_column button:active {
+  outline: none;
 }
